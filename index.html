@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexFert · o frete do agro, sem telefone e sem planilha</title>
+  <meta name="description" content="NexFert é a logtech do agronegócio: cotação aberta entre transportadoras, rastreamento ao vivo e entrega confirmada por QR com as duas partes presentes. Plataforma em desenvolvimento, primeiras rotas em implantação.">
+  <meta name="keywords" content="NexFert, logtech, logística agro, agronegócio, frete agrícola, transporte de cargas, marketplace de fretes, rastreamento de carga, prova de entrega, transportadora, Uberlândia">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="NexFert">
+  <link rel="canonical" href="https://nexfert.com.br/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NexFert">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://nexfert.com.br/">
+  <meta property="og:title" content="NexFert · o frete do agro, sem telefone e sem planilha">
+  <meta property="og:description" content="Cotação aberta, rastreamento ao vivo e entrega confirmada por QR, com as duas partes presentes. Plataforma em desenvolvimento.">
+  <meta property="og:image" content="https://nexfert.com.br/img/og-nexfert.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NexFert, carreta em rodovia do cerrado ao entardecer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NexFert · o frete do agro, sem telefone e sem planilha">
+  <meta name="twitter:description" content="Cotação aberta, rastreamento ao vivo e entrega confirmada por QR. Plataforma em desenvolvimento.">
+  <meta name="twitter:image" content="https://nexfert.com.br/img/og-nexfert.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://nexfert.com.br/#organizacao",
+        "name": "NexFert",
+        "url": "https://nexfert.com.br/",
+        "logo": "https://nexfert.com.br/icon-512.png",
+        "image": "https://nexfert.com.br/img/og-nexfert.jpg",
+        "slogan": "Inteligência logística para o agro.",
+        "description": "Plataforma logtech do agronegócio: conecta embarcadores, transportadoras e motoristas autônomos, com cotação aberta, rastreamento ao vivo e confirmação de entrega por QR.",
+        "email": "contato@nexfert.com.br",
+        "areaServed": { "@type": "Country", "name": "Brasil" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Uberlândia",
+          "addressRegion": "MG",
+          "addressCountry": "BR"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nexfert.com.br/#site",
+        "name": "NexFert",
+        "url": "https://nexfert.com.br/",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://nexfert.com.br/#organizacao" }
+      },
+      {
+        "@type": "WebPage",
+        "url": "https://nexfert.com.br/",
+        "name": "NexFert · o frete do agro, sem telefone e sem planilha",
+        "isPartOf": { "@id": "https://nexfert.com.br/#site" },
+        "about": { "@id": "https://nexfert.com.br/#organizacao" },
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "A NexFert é uma transportadora?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. A NexFert é uma plataforma de tecnologia que conecta quem tem carga a quem tem caminhão. O transporte é executado pela transportadora ou pelo motorista autônomo contratado pelo embarcador."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como a entrega é confirmada?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Por QR de co-presença: motorista e recebedor confirmam juntos, no mesmo lugar e na mesma hora. Fica registrado quem recebeu, quando e onde."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "A plataforma já está disponível?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A plataforma está em desenvolvimento. O painel web e a API já estão no ar; os aplicativos Android e iOS estão em construção e as primeiras rotas estão em implantação."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0E1117">
+  <link rel="preload" as="image" href="/img/hero-cerrado.webp" type="image/webp">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-700.woff2" crossorigin>
+  <link rel="stylesheet" href="/estilo.css?v=2559f2a4">
+</head>
+<body>
+
+<header class="topo">
+  <div class="faixa">
+    <a class="marca" href="/" aria-label="NexFert, início">
+      <img class="marca-icone" src="/icon-192.png" alt="" width="192" height="192">
+      <img class="marca-nome" src="/marca/wordmark-nexfert.png" alt="NexFert" width="481" height="68">
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#como">Como funciona</a>
+      <a href="#prova">Prova de entrega</a>
+    </nav>
+    <div class="acoes">
+      <a class="link" href="https://painel.nexfert.com.br" rel="noopener" hidden>Entrar no painel</a>
+      <a class="btn btn-p" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20quero%20conversar">Falar com a equipe</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-arte">
+    <picture>
+      <source srcset="/img/hero-cerrado.webp" type="image/webp">
+      <img src="/img/hero-cerrado.jpg" alt="Carreta em rodovia do cerrado ao entardecer" width="2400" height="1000" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero-veu"></div>
+
+  <div class="faixa">
+    <div class="hero-txt">
+      <p class="olho"><span class="pisca"></span>Logtech do agro</p>
+      <h1>O frete do agro,<br>sem telefone e <em>sem planilha</em>.</h1>
+      <p class="sub">
+        A NexFert está sendo construída para conectar quem tem carga a quem tem caminhão:
+        você publica, as transportadoras propõem, e a entrega é confirmada com as duas partes
+        presentes. <b>Estamos em desenvolvimento</b>, e abrindo as primeiras rotas.
+      </p>
+      <div class="cta">
+        <a class="btn btn-p btn-g" href="/cotacao/">Tenho cargas pra mover</a>
+        <a class="btn btn-s btn-g" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20tenho%20caminh%C3%A3o">Tenho caminhão</a>
+      </div>
+      <div class="lojas lojas-hero">
+        <a class="loja" href="https://play.google.com/store/apps/details?id=dev.inovamind.nexfert" rel="noopener">
+          <img class="loja-google" src="/marca/lojas/google-play-pt-br.png" alt="Disponível no Google Play" width="646" height="250">
+        </a>
+        <a class="loja" href="https://apps.apple.com/br/app/nexfert/" rel="noopener">
+          <img class="loja-apple" src="/marca/lojas/app-store-pt-br.svg" alt="Baixe na App Store" width="120" height="40">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="capac" id="capacidades">
+  <div class="faixa">
+    <div class="cap">
+      <h3>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        Cotação aberta
+      </h3>
+      <p>Transportadoras e autônomos propõem valor e prazo. Você compara e escolhe, sem ligação, sem grupo de WhatsApp.</p>
+    </div>
+    <div class="cap">
+      <h3>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Rastreamento ao vivo
+      </h3>
+      <p>A posição do frete em tempo real, do embarque à entrega, para quem enviou e para quem espera.</p>
+    </div>
+    <div class="cap">
+      <h3>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><path d="M14 14h3v3h-3zM18 18h3v3h-3z"></path></svg>
+        Entrega confirmada por QR
+      </h3>
+      <p>Motorista e recebedor confirmam juntos, no ato. Fica a prova de quem recebeu, e de onde.</p>
+    </div>
+  </div>
+</section>
+
+<section class="secao secao-claro" id="como">
+  <div class="faixa">
+    <p class="rotulo">Como funciona</p>
+    <h2>Do anúncio à prova de entrega,<br>num lugar só.</h2>
+    <p class="sub2">Três passos. O resto o sistema faz.</p>
+
+    <div class="passos">
+      <article class="passo">
+        <div class="passo-arte">
+          <picture>
+            <source srcset="/img/etapa-carga.webp" type="image/webp">
+            <img src="/img/etapa-carga.jpg" alt="Carregamento de fertilizante em armazém" width="1200" height="900" loading="lazy">
+          </picture>
+        </div>
+        <div class="passo-txt">
+          <p class="num">01</p>
+          <h3>Publique a carga</h3>
+          <p>Origem, destino, produto e prazo. Ela vai pro marketplace na hora.</p>
+        </div>
+      </article>
+
+      <article class="passo">
+        <div class="passo-arte">
+          <picture>
+            <source srcset="/img/etapa-rota.webp" type="image/webp">
+            <img src="/img/etapa-rota.jpg" alt="Rota do frete acompanhada ao vivo" width="1200" height="900" loading="lazy">
+          </picture>
+        </div>
+        <div class="passo-txt">
+          <p class="num">02</p>
+          <h3>Receba propostas</h3>
+          <p>Transportadoras disputam o frete. Você vê valor, prazo e a reputação de cada uma.</p>
+        </div>
+      </article>
+
+      <article class="passo">
+        <div class="passo-arte">
+          <picture>
+            <source srcset="/img/etapa-qr.webp" type="image/webp">
+            <img src="/img/etapa-qr.jpg" alt="Confirmação de entrega por QR, com motorista e recebedor presentes" width="1200" height="900" loading="lazy">
+          </picture>
+        </div>
+        <div class="passo-txt">
+          <p class="num">03</p>
+          <h3>Acompanhe e confirme</h3>
+          <p>Rastreamento ao vivo e confirmação por QR na entrega, com as duas partes presentes.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="prova" id="prova">
+  <div class="faixa">
+    <div class="prova-txt">
+      <p class="rotulo">A diferença</p>
+      <h2>A entrega não é "dada como feita".<br>Ela é <em>provada</em>.</h2>
+      <p>
+        No fim da viagem, motorista e recebedor confirmam <b>juntos</b>, pelo QR: uma parte exibe o
+        código, a outra lê. O código vale por pouco tempo e só serve uma vez. Não dá pra confirmar
+        de longe, nem no dia seguinte.
+      </p>
+      <p>
+        O que fica registrado é <b>quem recebeu, quando e onde</b>. É isso que transforma "entreguei"
+        em prova. É o que nenhuma planilha faz.
+      </p>
+      <ul class="prova-chips">
+        <li>Mesmo lugar</li>
+        <li>Mesma hora</li>
+        <li>Uso único</li>
+      </ul>
+    </div>
+
+    <figure class="prova-arte">
+      <svg viewBox="0 0 520 390" fill="none" role="img" aria-labelledby="tituloQr">
+        <title id="tituloQr">Confirmação por QR: motorista exibe, recebedor lê, entrega registrada</title>
+
+        <path d="M132 196h60" stroke="#4FD18A" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round" opacity=".8"></path>
+        <path d="M328 196h60" stroke="#4FD18A" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round" opacity=".8"></path>
+
+        <circle cx="84" cy="152" r="24" fill="#101014"></circle>
+        <path d="M44 232c0-24 18-40 40-40s40 16 40 40z" fill="#101014"></path>
+        <text x="84" y="266" text-anchor="middle" class="svg-rot">Motorista</text>
+        <text x="84" y="286" text-anchor="middle" class="svg-sub">exibe</text>
+
+        <circle cx="436" cy="152" r="24" fill="#101014"></circle>
+        <path d="M396 232c0-24 18-40 40-40s40 16 40 40z" fill="#101014"></path>
+        <text x="436" y="266" text-anchor="middle" class="svg-rot">Recebedor</text>
+        <text x="436" y="286" text-anchor="middle" class="svg-sub">lê</text>
+
+        <rect x="206" y="118" width="108" height="108" rx="12" fill="#fff"></rect>
+        <rect x="220" y="132" width="24" height="24" rx="4" fill="#101014"></rect>
+        <rect x="276" y="132" width="24" height="24" rx="4" fill="#101014"></rect>
+        <rect x="220" y="188" width="24" height="24" rx="4" fill="#101014"></rect>
+        <rect x="252" y="164" width="12" height="12" fill="#101014"></rect>
+        <rect x="276" y="176" width="12" height="12" fill="#101014"></rect>
+        <rect x="288" y="196" width="12" height="12" fill="#101014"></rect>
+        <rect x="252" y="196" width="12" height="12" fill="#101014"></rect>
+        <rect x="196" y="108" width="128" height="128" rx="16" stroke="#00A651" stroke-width="2.5"></rect>
+
+        <circle cx="260" cy="296" r="17" fill="#00A651"></circle>
+        <path d="M253 296l5 5 10-11" stroke="#04140b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <text x="260" y="344" text-anchor="middle" class="svg-rot">Entrega registrada</text>
+        <text x="260" y="366" text-anchor="middle" class="svg-sub">quem recebeu · quando · onde</text>
+      </svg>
+    </figure>
+  </div>
+</section>
+
+<section class="fim" id="comecar">
+  <div class="faixa">
+    <h2>Quer tirar o frete do WhatsApp com a gente?</h2>
+    <p>Estamos abrindo as primeiras rotas. O acesso hoje é conversado, um a um.</p>
+    <div class="cta">
+      <a class="btn btn-p btn-g" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20quero%20conversar">Falar com a equipe</a>
+      <a class="btn btn-s btn-g" href="https://painel.nexfert.com.br" rel="noopener" hidden>Entrar no painel</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="rodape">
+  <div class="faixa">
+    <div class="rod-grade">
+
+      <div class="rod-marca">
+        <a class="marca" href="/" aria-label="NexFert, início">
+          <img class="marca-icone" src="/icon-192.png" alt="" width="192" height="192">
+          <img class="marca-nome" src="/marca/wordmark-nexfert.png" alt="NexFert" width="481" height="68">
+        </a>
+        <p class="rod-slogan">Inteligência logística para o agro.</p>
+        <ul class="rod-pilares">
+          <li><span class="dot"></span>Transporte inteligente</li>
+          <li><span class="dot"></span>Rastreabilidade em tempo real</li>
+          <li><span class="dot"></span>Gestão de cargas</li>
+        </ul>
+        <p class="rod-selo"><span class="pisca"></span>Plataforma em desenvolvimento · Uberlândia/MG</p>
+      </div>
+
+      <div class="rod-meio">
+      <nav class="rod-col" aria-label="Plataforma">
+        <h2>Plataforma</h2>
+        <ul>
+          <li><a href="#como">Como funciona</a></li>
+          <li><a href="#prova">Prova de entrega por QR</a></li>
+          <li><a href="#capacidades">Rastreamento ao vivo</a></li>
+        </ul>
+      </nav>
+
+      <nav class="rod-col" aria-label="Para quem">
+        <h2>Para quem</h2>
+        <ul>
+          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20embarcador">Embarcadores</a></li>
+          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20transportadora">Transportadoras</a></li>
+          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20motorista">Motoristas autônomos</a></li>
+        </ul>
+      </nav>
+
+      <div class="rod-lojas">
+        <h2>Baixe o aplicativo</h2>
+        <div class="lojas">
+          <a class="loja" href="https://play.google.com/store/apps/details?id=dev.inovamind.nexfert" rel="noopener">
+            <img class="loja-google" src="/marca/lojas/google-play-pt-br.png" alt="Disponível no Google Play" width="646" height="250">
+          </a>
+          <a class="loja" href="https://apps.apple.com/br/app/nexfert/" rel="noopener">
+            <img class="loja-apple" src="/marca/lojas/app-store-pt-br.svg" alt="Baixe na App Store" width="120" height="40">
+          </a>
+        </div>
+      </div>
+      </div>
+
+      <nav class="rod-col" aria-label="Acesso" hidden>
+        <h2>Acesso</h2>
+        <ul>
+          <li><a href="https://painel.nexfert.com.br" rel="noopener">Entrar no painel</a></li>
+          <li><span class="rod-breve">Cadastro aberto <b>em breve</b></span></li>
+          <li><span class="rod-breve">Apps Android e iOS <b>em desenvolvimento</b></span></li>
+        </ul>
+      </nav>
+
+      <div class="rod-col">
+        <h2>Contato</h2>
+        <ul>
+          <li><a href="mailto:contato@nexfert.com.br">contato@nexfert.com.br</a></li>
+          <li><span class="rod-breve">Uberlândia · Minas Gerais</span></li>
+        </ul>
+        <h2 class="rod-h2b">Legal</h2>
+        <ul>
+          <li><a href="/termos/">Termos de uso</a></li>
+          <li><a href="/privacidade/">Política de privacidade</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="rod-base">
+      <p>© 2026 <b>NexFert</b> · plataforma logtech do agronegócio · <a href="/suporte/">Suporte</a></p>
+      <p class="rod-por">Desenvolvido por <a href="https://www.inovamind.dev" target="_blank" rel="noopener">Inovamind.dev</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

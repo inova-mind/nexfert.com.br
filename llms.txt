@@ -1,0 +1,13 @@
+# NexFert
+
+> Inteligência logística para o agro.
+
+NexFert é uma plataforma logtech para o agronegócio, desenvolvida pela Inovamind. O site institucional está em construção, o conteúdo completo entra em breve.
+
+## Sobre
+- Produto: NexFert, inteligência logística para o agro
+- Empresa: Inovamind, https://www.inovamind.dev
+- Contato: contato@inovamind.dev
+
+## Status
+Site em construção (HTML/CSS estático). Conteúdo completo em breve.
