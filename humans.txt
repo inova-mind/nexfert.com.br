@@ -1,0 +1,11 @@
+/* TEAM */
+Produto: NexFert, Inteligência logística para o agro
+Empresa: Inovamind
+Desenvolvido por: Inovamind, https://www.inovamind.dev
+Contato: contato@inovamind.dev
+Site: https://nexfert.com.br
+
+/* SITE */
+Status: Em construção
+Linguagem: pt-BR
+Padrão: site estático (HTML/CSS), CSP estrita
