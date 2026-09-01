@@ -103,7 +103,7 @@
   <meta name="theme-color" content="#0E1117">
   <link rel="preload" as="image" href="/img/hero-cerrado.webp" type="image/webp">
   <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-700.woff2" crossorigin>
-  <link rel="stylesheet" href="/estilo.css?v=2559f2a4">
+  <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
 
@@ -116,10 +116,12 @@
     <nav class="nav" aria-label="Seções">
       <a href="#como">Como funciona</a>
       <a href="#prova">Prova de entrega</a>
+      <a href="/cadastro/">Criar conta</a>
     </nav>
     <div class="acoes">
       <a class="link" href="https://painel.nexfert.com.br" rel="noopener" hidden>Entrar no painel</a>
-      <a class="btn btn-p" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20quero%20conversar">Falar com a equipe</a>
+      <a class="link" href="/cadastro/">Criar conta</a>
+      <a class="btn btn-p" href="/contato/?origem=home/falar-com-a-equipe">Falar com a equipe</a>
     </div>
   </div>
 </header>
@@ -145,7 +147,7 @@
       </p>
       <div class="cta">
         <a class="btn btn-p btn-g" href="/cotacao/">Tenho cargas pra mover</a>
-        <a class="btn btn-s btn-g" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20tenho%20caminh%C3%A3o">Tenho caminhão</a>
+        <a class="btn btn-s btn-g" href="/contato/?perfil=transportadora&amp;origem=home/tenho-caminhao">Tenho caminhão</a>
       </div>
       <div class="lojas lojas-hero">
         <a class="loja" href="https://play.google.com/store/apps/details?id=dev.inovamind.nexfert" rel="noopener">
@@ -299,7 +301,7 @@
     <h2>Quer tirar o frete do WhatsApp com a gente?</h2>
     <p>Estamos abrindo as primeiras rotas. O acesso hoje é conversado, um a um.</p>
     <div class="cta">
-      <a class="btn btn-p btn-g" href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20quero%20conversar">Falar com a equipe</a>
+      <a class="btn btn-p btn-g" href="/contato/?origem=home/falar-com-a-equipe">Falar com a equipe</a>
       <a class="btn btn-s btn-g" href="https://painel.nexfert.com.br" rel="noopener" hidden>Entrar no painel</a>
     </div>
   </div>
@@ -337,9 +339,10 @@
       <nav class="rod-col" aria-label="Para quem">
         <h2>Para quem</h2>
         <ul>
-          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20embarcador">Embarcadores</a></li>
-          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20transportadora">Transportadoras</a></li>
-          <li><a href="mailto:contato@nexfert.com.br?subject=NexFert%20%E2%80%94%20motorista">Motoristas autônomos</a></li>
+          <li><a href="/contato/?perfil=embarcador&amp;origem=rodape">Embarcadores</a></li>
+          <li><a href="/contato/?perfil=transportadora&amp;origem=rodape">Transportadoras</a></li>
+          <li><a href="/contato/?perfil=motorista&amp;origem=rodape">Motoristas autônomos</a></li>
+          <li><a href="/cadastro/">Criar conta no app</a></li>
         </ul>
       </nav>
 
@@ -368,7 +371,7 @@
       <div class="rod-col">
         <h2>Contato</h2>
         <ul>
-          <li><a href="mailto:contato@nexfert.com.br">contato@nexfert.com.br</a></li>
+          <li><a href="/contato/">contato@nexfert.com.br</a></li>
           <li><span class="rod-breve">Uberlândia · Minas Gerais</span></li>
         </ul>
         <h2 class="rod-h2b">Legal</h2>
@@ -382,7 +385,7 @@
 
     <div class="rod-base">
       <p>© 2026 <b>NexFert</b> · plataforma logtech do agronegócio · <a href="/suporte/">Suporte</a></p>
-      <p class="rod-por">Desenvolvido por <a href="https://www.inovamind.dev" target="_blank" rel="noopener">Inovamind.dev</a></p>
+      <p class="rod-por"><a class="rod-assina" href="https://www.inovamind.dev" target="_blank" rel="noopener"><span>Desenvolvido por</span><img src="/marca/logo-inovamind.png" alt="Inovamind" width="279" height="43"></a></p>
     </div>
   </div>
 </footer>
