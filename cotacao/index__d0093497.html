@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta name="theme-color" content="#0E1117">
   <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-600.woff2" crossorigin>
-  <link rel="stylesheet" href="/estilo.css?v=2559f2a4">
+  <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
 
@@ -36,7 +36,8 @@
       <a href="/frete/">Fretes</a>
     </nav>
     <div class="acoes">
-      <a class="btn btn-p" href="mailto:contato@nexfert.com.br">Falar com a equipe</a>
+      <a class="link" href="/cadastro/">Criar conta</a>
+      <a class="btn btn-p" href="/contato/?origem=cotacao/falar-com-a-equipe">Falar com a equipe</a>
     </div>
   </div>
 </header>
@@ -83,8 +84,15 @@
           <input name="nome" type="text" required autocomplete="name" placeholder="Como te chamamos">
         </label>
         <label class="campo">
-          <span>E-mail ou WhatsApp <em>*</em></span>
-          <input name="contato" type="text" required autocomplete="off" placeholder="Pra gente te responder">
+          <span>E-mail <em>*</em></span>
+          <input name="email" type="email" required maxlength="160" autocomplete="email" placeholder="Pra gente te responder">
+        </label>
+      </div>
+
+      <div class="campo-linha">
+        <label class="campo">
+          <span>WhatsApp</span>
+          <input name="telefone" type="tel" maxlength="40" autocomplete="tel" placeholder="Opcional, com DDD">
         </label>
       </div>
 
@@ -102,17 +110,26 @@
         <button class="btn btn-p" type="submit">Enviar cotação</button>
         <p class="form-nota" id="formNota" role="status"></p>
       </div>
-      <p class="form-mini">Ao enviar, abre seu aplicativo de e-mail com o pedido pronto para
-      <b>contato@nexfert.com.br</b>. Nenhum dado é enviado sem você confirmar o envio.</p>
+      <p class="form-mini">Enviamos direto para a equipe e devolvemos um número de protocolo por
+      e-mail. Detalhes na <a href="/privacidade/">Política de privacidade</a>.</p>
     </form>
   </div>
 </main>
 
 <footer class="rodape">
   <div class="faixa">
+    <div class="rod-marcas">
+      <a class="marca" href="/" aria-label="NexFert, início">
+        <img class="marca-icone" src="/icon-192.png" alt="" width="192" height="192">
+        <img class="marca-nome" src="/marca/wordmark-nexfert.png" alt="NexFert" width="481" height="68">
+      </a>
+      <a class="rod-assina" href="https://www.inovamind.dev" target="_blank" rel="noopener">
+        <span>Desenvolvido por</span>
+        <img src="/marca/logo-inovamind.png" alt="Inovamind" width="279" height="43">
+      </a>
+    </div>
     <div class="rod-base">
       <p>© 2026 <b>NexFert</b> · <a href="/">Início</a> · <a href="/frete/">Fretes</a> · <a href="/privacidade/">Política de privacidade</a> · <a href="/suporte/">Suporte</a></p>
-      <p class="rod-por">Desenvolvido por <a href="https://www.inovamind.dev" target="_blank" rel="noopener">Inovamind.dev</a></p>
     </div>
   </div>
 </footer>
