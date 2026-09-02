@@ -1,11 +1,18 @@
 /* TEAM */
-Produto: NexFert, Inteligência logística para o agro
+Produto: NexFert
 Empresa: Inovamind
 Desenvolvido por: Inovamind, https://www.inovamind.dev
-Contato: contato@inovamind.dev
+Contact: contato@nexfert.com.br
 Site: https://nexfert.com.br
+From: Uberlândia, Minas Gerais, Brasil
+Last update: 2026-09-02
 
 /* SITE */
+Title: NexFert · o frete do agro, sem telefone e sem planilha
+Description: NexFert é a logtech do agronegócio: cotação aberta entre transportadoras, rastreamento ao vivo e entrega confirmada por QR com as duas partes presentes. Plataforma em desenvolvimento, primeiras rotas em implantação.
+Tagline: Inteligência logística para o agro.
 Status: Em construção
-Linguagem: pt-BR
+Language: Portuguese (Brazil)
+Standards: HTML5, CSS3
+Hosted: Debian + Nginx + Cloudflare
 Padrão: site estático (HTML/CSS), CSP estrita

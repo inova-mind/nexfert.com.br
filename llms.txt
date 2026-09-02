@@ -2,12 +2,25 @@
 
 > Inteligência logística para o agro.
 
-NexFert é uma plataforma logtech para o agronegócio, desenvolvida pela Inovamind. O site institucional está em construção, o conteúdo completo entra em breve.
+NexFert é a logtech do agronegócio: cotação aberta entre transportadoras, rastreamento ao vivo e entrega confirmada por QR com as duas partes presentes. Plataforma em desenvolvimento, primeiras rotas em implantação.
 
 ## Sobre
-- Produto: NexFert, inteligência logística para o agro
+- Produto: NexFert, a plataforma. Soprani Transportadora é o cliente que a opera.
 - Empresa: Inovamind, https://www.inovamind.dev
-- Contato: contato@inovamind.dev
+- Contato: https://nexfert.com.br/contato/
+- Onde: Uberlândia, Minas Gerais
+
+## Páginas
+- / : o que é a plataforma, como funciona e a prova de entrega por QR
+- /frete/ : corredores atendidos, um por rota origem-destino
+- /cotacao/ : pedido de cotação sem cadastro
+- /cadastro/ : como criar conta (o cadastro é feito no aplicativo)
+- /contato/ : fale com a equipe
+- /suporte/ : canal de suporte exigido pelas lojas de aplicativo
+- /termos/ e /privacidade/ : documentos legais, minutas em revisão jurídica
+- /excluir-conta/ : pedido de exclusão de conta, exigência da Google Play
 
 ## Status
-Site em construção (HTML/CSS estático). Conteúdo completo em breve.
+Plataforma em desenvolvimento, com as primeiras rotas em implantação. O acesso é liberado
+conversando, um a um, com as primeiras transportadoras e embarcadores. O aplicativo existe para
+Android e iOS; a conta nasce nele, porque é vinculada ao aparelho.
