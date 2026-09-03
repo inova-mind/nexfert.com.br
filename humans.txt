@@ -5,7 +5,7 @@ Desenvolvido por: Inovamind, https://www.inovamind.dev
 Contact: contato@nexfert.com.br
 Site: https://nexfert.com.br
 From: Uberlândia, Minas Gerais, Brasil
-Last update: 2026-09-02
+Last update: 2026-09-03
 
 /* SITE */
 Title: NexFert · o frete do agro, sem telefone e sem planilha
