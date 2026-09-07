@@ -164,8 +164,10 @@
             <td>Execução de contrato (art. 7º, V), ver seção 4</td>
           </tr>
           <tr>
-            <td><b>Endereço de entrega da notificação</b>: um identificador que o Google (Firebase
-              Cloud Messaging) gera no seu aparelho para que possamos enviar avisos do aplicativo</td>
+            <td><b>Endereço de entrega da notificação</b>: um identificador gerado no seu aparelho
+              para que possamos enviar avisos do aplicativo. Quem o gera depende do sistema: no
+              Android é o <b>Google</b> (Firebase Cloud Messaging) e no iPhone é a <b>Apple</b>
+              (Apple Push Notification service)</td>
             <td>Avisar você de uma oferta de frete, de uma proposta na sua carga, do aceite da sua
               proposta e de mensagem nova. O aviso não leva valores nem a identidade da outra parte:
               ele diz o que aconteceu e a rota, porque a notificação aparece na tela de bloqueio</td>
@@ -316,10 +318,12 @@
           <b>operadores</b>, sob contrato e sem autorização para usar os dados para fins próprios.</li>
         <li><b>Plataformas dos aparelhos</b> (Google e Apple), para duas coisas: a <b>atestação de
           integridade</b> do aplicativo, que recebe o pedido de verificação e não os dados do seu
-          frete; e a <b>entrega das notificações</b> (Firebase Cloud Messaging, do Google), que
-          recebe o endereço de entrega do seu aparelho e o texto do aviso. Como o aviso não leva
-          valores nem a identidade da outra parte, o que trafega ali é "chegou uma proposta" e a
-          rota. Nos dois casos o Google atua como <b>operador</b>.</li>
+          frete; e a <b>entrega das notificações</b>, que recebe o endereço de entrega do seu
+          aparelho e o texto do aviso. A entrega passa por empresas diferentes conforme o sistema:
+          no Android, pelo <b>Firebase Cloud Messaging, do Google</b>; no iPhone, pelo <b>Apple Push
+          Notification service, da Apple</b>, sem intermediário. Como o aviso não leva valores nem a
+          identidade da outra parte, o que trafega ali é "chegou uma proposta" e a rota. Em todos
+          esses casos, Google e Apple atuam como <b>operadores</b>.</li>
         <li><b>Autoridades</b>, quando houver obrigação legal ou ordem judicial.</li>
       </ul>
     </section>
