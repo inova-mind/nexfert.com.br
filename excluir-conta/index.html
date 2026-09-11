@@ -49,7 +49,7 @@
   <div class="faixa">
 
     <h1>Excluir sua conta e seus dados</h1>
-    <p class="doc-meta">Aplicativo <b>NexFert</b> (<code>dev.inovamind.nexfert</code>) · última atualização: 6 de agosto de 2026</p>
+    <p class="doc-meta">Aplicativo <b>NexFert</b> (<code>dev.inovamind.nexfert</code>) · última atualização: 10 de setembro de 2026</p>
 
     <p>
       Você pode pedir a exclusão da sua conta NexFert e dos dados pessoais associados a ela a
@@ -85,7 +85,9 @@
     <section id="apagado">
       <h2>2. O que é apagado</h2>
       <ul>
-        <li>a conta e os dados de cadastro (nome, e-mail, senha, documento);</li>
+        <li>a conta e os dados de cadastro que identificam você: <b>nome</b>, <b>documento</b>
+            (CPF ou CNPJ) e a <b>logomarca</b>, quando houver;</li>
+        <li>a <b>senha</b> deixa de valer no ato: as sessões caem e o acesso é revogado;</li>
         <li>o vínculo dos aparelhos com a conta, e as sessões ativas;</li>
         <li>os pontos de localização, quando já não forem necessários à comprovação de um frete;</li>
         <li>os dados pessoais de quem recebeu a carga (documento, foto e assinatura), respeitado o
@@ -112,6 +114,10 @@
         <li><b>Telemetria de erro</b>: já é armazenada sem dados pessoais. O aplicativo remove
             documento, e-mail, telefone, coordenadas e credenciais antes de enviar, e o servidor
             repete essa limpeza ao receber. O que resta não identifica ninguém.</li>
+        <li><b>O e-mail de login</b>, na conta já encerrada. Ele deixa de dar acesso a qualquer
+            coisa, e continua guardado por dois motivos: é o que impede que a mesma conta seja
+            recriada e herde o histórico de quem a usou antes, e é por ele que conseguimos
+            reconhecer um pedido seu, no futuro, sobre uma conta que não existe mais.</li>
       </ul>
     </section>
 
